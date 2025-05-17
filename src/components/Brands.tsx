@@ -48,11 +48,11 @@ export default function Brands() {
       <div className="overflow-hidden w-full px-4">
         <Marquee
           pauseOnHover={true}
-          loop={0} // Infinite loop
+          loop={0} 
           gradient={true}
-          gradientWidth={50} // Adjust gradient width for effect
-          speed={280} // Reduced speed for smoother scrolling
-          gradientColor="0,0,0" // Proper RGB format for black gradient
+          gradientWidth={50} 
+          speed={280} 
+          gradientColor="0,0,0" 
         >
           <img
             src={One}
